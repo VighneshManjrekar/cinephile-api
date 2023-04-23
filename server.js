@@ -7,6 +7,7 @@ const clc = require("cli-color");
 const connectDB = require("./configs/db");
 const errorHandler = require("./middleware/errorHandler");
 const authRouter = require("./routes/auth.routes");
+const movieRouter = require("./routes/movie.routes");
 const adminRouter = require("./routes/admin.routes");
 
 const app = express();
@@ -17,6 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use("/api/auth", authRouter);
 app.use("/api/admin", adminRouter);
+app.use("/api/movies", movieRouter);
 app.use(errorHandler);
 
 app.listen(PORT, () => {

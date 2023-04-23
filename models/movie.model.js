@@ -26,6 +26,11 @@ const movieSchema = new mongoose.Schema({
       "Mystery",
       "Romance",
       "Sci-Fi",
+      "Thriller",
+      "Sci-fi",
+      "Historical Fiction",
+      "Biographical",
+      "Period Drama"
     ],
     required: [true,
       "Please select proper genre",]
