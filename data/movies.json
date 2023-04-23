@@ -1,0 +1,901 @@
+[
+    {
+        "title": "The Avengers",
+        "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 9,
+        "keywords": [
+            "shield",
+            "superhero",
+            "mcu",
+            "avengers",
+            "thanos",
+            "infinity war"
+        ],
+        "cast": [
+            "Robert Downey Jr",
+            "Chris Evans",
+            "Mark Ruffalo",
+            "Chris Hemworth",
+            "Scarlett Johanson"
+        ],
+        "genres": [
+            "Sci-Fi",
+            "Action",
+            "Adventure"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Wreck-It Ralph",
+        "overview": "Wreck-It Ralph is the 9-foot-tall, 643-pound villain of an arcade video game named Fix-It Felix Jr., in which the game's titular hero fixes buildings that Ralph destroys. Wanting to prove he can be a good guy and not just a villain, Ralph escapes his game and lands in Hero's Duty, a first-person shooter where he helps the game's hero battle against alien invaders. He later enters Sugar Rush, a kart racing game set on tracks made of candies, cookies and other sweets. There, Ralph meets Vanellope von Schweetz who has learned that her game is faced with a dire threat that could affect the entire arcade, and one that Ralph may have inadvertently started.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 8,
+        "keywords": [
+            "kids",
+            "animation",
+            "disney",
+            "comedy",
+            "cartoon"
+        ],
+        "cast": [
+            "John C Kelly",
+            "Sarah Silverman"
+        ],
+        "genres": [
+            "Family",
+            "Adventure",
+            "Comedy",
+            "Animation"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Transformers: Revenge of the Fallen",
+        "overview": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 5,
+        "keywords": [
+            "transformers",
+            "superhero",
+            "egypt",
+            "optimus",
+            "alien",
+            "robot"
+        ],
+        "cast": [
+            "Shia LeBeouf",
+            "Megan Fox"
+        ],
+        "genres": [
+            "Sci-Fi",
+            "Action",
+            "Adventure"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 6,
+        "keywords": [
+            "ring",
+            "fiction",
+            "fantasy",
+            "elves",
+            "drawes",
+            "mens"
+        ],
+        "cast": [
+            "Elijah Wood",
+            "Ian McKellen",
+            "Liv Tyler"
+        ],
+        "genres": [
+            "Fantasy",
+            "Action",
+            "Adventure"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Won't Back Down",
+        "overview": "Two determined mothers­, one a teacher, look to transform their children's failing inner city school. Facing a powerful and entrenched bureaucracy, they risk everything to make a difference in the education and future of their children",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 4,
+        "keywords": [
+            "Education reform",
+            " Parental involvement",
+            "Empowerment"
+        ],
+        "cast": [
+            "Viola Davis",
+            "Maggie Gyllenhaal",
+            "Holly Hunter"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Recep İvedik 4",
+        "overview": "Recep Ivedik coaches the children football team in his neighborhood. For the training he uses the only free piece of land as football field on which he used to play football as a child. Recep notices sadly that this piece of land was sold to a businessman. So as not to loose this for the neighborhood and the children valuable piece of land he decides to re-buy it on his own. With his own methods he does not receive the money. The participation in a competition with a big price is the only solution of his problem ...",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 8,
+        "keywords": [
+            "Turkish Comedy",
+            "Culture clash",
+            "Adventure"
+        ],
+        "cast": [
+            "Şahan Gökbakar",
+            "Adem Atbas",
+            "Somer Karvan"
+        ],
+        "genres": [
+            "Comedy"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Belle",
+        "overview": "BELLE is inspired by the true story of Dido Elizabeth Belle, the illegitimate mixed race daughter of a Royal Navy Admiral. Raised by her aristocratic great-uncle Lord Mansfield and his wife, Belle's lineage affords her certain privileges, yet the color of her skin prevents her from fully participating in the traditions of her social standing. Left to wonder if she will ever find love, Belle falls for an idealistic young vicar's son bent on change who, with her help, shapes Lord Mansfield's role as Lord Chief Justice to end slavery in England",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 7,
+        "keywords": [
+            "Historical drama",
+            "Slavery",
+            "Identity",
+            "Romance"
+        ],
+        "cast": [
+            "Gugu Mbatha-Raw",
+            "Tom Wilkinson",
+            "Miranda Richardson"
+        ],
+        "genres": [
+            "Drama",
+            "Historical Fiction"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Extraordinary Measures",
+        "overview": "Working-class father John Crowley is finally on the fast track to corporate success when his two young children, Megan and Patrick, are diagnosed with Pompe disease - a condition that prevents the body from breaking down sugar. With the support of his wife, Aileen, John ditches his career and teams with unconventional specialist Dr. Robert Stonehill to found a bio-tech company and develop a cure in time to save the lives of Megan and Patrick. As Dr. Stonehill works tirelessly to prove the theories that made him the black sheep of the medical community, a powerful bond is forged between the two unlikely allies.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 9,
+        "keywords": [
+            "Medical research",
+            "Family drama",
+            "Determination"
+        ],
+        "cast": [
+            "Brendan Fraser",
+            "Harrison Ford",
+            "Keri Russell"
+        ],
+        "genres": [
+            "Drama",
+            "Biographical"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Braveheart",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 3,
+        "keywords": [
+            "Scottish history",
+            "Freedom",
+            "Betrayal",
+            "Revenge"
+        ],
+        "cast": [
+            "Mel Gibson",
+            "Sophie Marceau",
+            "Patrick McGoohan"
+        ],
+        "genres": [
+            "Historical Fiction",
+            "Action"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "An Ideal Husband",
+        "overview": "Sir Robert Chiltern is a successful Government minister, well-off and with a loving wife. All this is threatened when Mrs Cheveley appears in London with damning evidence of a past misdeed. Sir Robert turns for help to his friend Lord Goring, an apparently idle philanderer and the despair of his father. Goring knows the lady of old, and, for him, takes the whole thing pretty seriously.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 5,
+        "keywords": [
+            "Oscar Wilde",
+            "Scandal",
+            "Blackmail",
+            "Comedy"
+        ],
+        "cast": [
+            "Rupert Everett",
+            "Julianne Moore",
+            "Cate Blanchett"
+        ],
+        "genres": [
+            "Comedy",
+            "Period Drama"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Hawaii",
+        "overview": "Abner Hale, a rigid and humorless New England missionary, marries the beautiful Jerusha Bromley and takes her to the exotic island kingdom of Hawaii, intent on converting the natives. But the clash between the two cultures is too great and instead of understanding there comes tragedy.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 7,
+        "keywords": [
+            "Romance",
+            "Adventure",
+            "Colonialism",
+            "Culture clash"
+        ],
+        "cast": [
+            "Julie Andrews",
+            "Max von Sydow",
+            "Richard Harris"
+        ],
+        "genres": [
+            "Drama",
+            "Romance"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Bandits",
+        "overview": "Two bank robbers fall in love with the girl they've kidnapped.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 7,
+        "keywords": [
+            "Bank robbery",
+            "Road trip",
+            "Romance"
+        ],
+        "cast": [
+            "Bruce Willis",
+            "Billy Bob Thornton",
+            "Cate Blanchett"
+        ],
+        "genres": [
+            "Comedy",
+            "Crime"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Little Black Book",
+        "overview": "Determined to learn about her boyfriend's past relationships, Stacy -- who works for a talk show -- becomes a bona fide snoop. With her colleague, Barb, Stacy gets the names of Derek's ex-lovers and interviews them, supposedly for an upcoming show. But what she learns only adds to her confusion, and her plans begin to unravel when she befriends one of the women.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 4,
+        "keywords": [
+            "Romantic Comedy",
+            "Betrayal",
+            "Jealousy"
+        ],
+        "cast": [
+            "Brittany Murphy",
+            "Holly Hunter",
+            "Ron Livingston"
+        ],
+        "genres": [
+            "Comedy",
+            "Romance"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "In the Heart of the Sea",
+        "overview": "In the winter of 1820, the New England whaling ship Essex was assaulted by something no one could believe: a whale of mammoth size and will, and an almost human sense of vengeance.  The real-life maritime disaster would inspire Herman Melville’s Moby Dick.  But that told only half the story.  “Heart of the Sea” reveals the encounter’s harrowing aftermath, as the ship’s surviving crew is pushed to their limits and forced to do the unthinkable to stay alive.  Braving storms, starvation, panic and despair, the men will call into question their deepest beliefs, from the value of their lives to the morality of their trade, as their captain searches for direction on the open sea and his first mate still seeks to bring the great whale down.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 8,
+        "keywords": [
+            "Historical drama",
+            "Survival",
+            "Whaling",
+            "Adventure"
+        ],
+        "cast": [
+            "Chris Hemsworth",
+            "Benjamin Walker",
+            "Cillian Murphy"
+        ],
+        "genres": [
+            "Drama",
+            "Historical Fiction"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Biloxi Blues",
+        "overview": "During the Second World War, Eugene enlists in the US Army during the last year of the War and is sent to basic training in Biloxi Mississippi. There he must live with a variety of fellow soldiers while enduring the whims of a mentally unstable drill sergeant.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 9,
+        "keywords": [
+            "Coming of age",
+            "Military service",
+            "Comedy"
+        ],
+        "cast": [
+            "Matthew Broderick",
+            "Christopher Walken",
+            "Penelope Ann Miller"
+        ],
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Ice Age: The Meltdown",
+        "overview": "Diego, Manny and Sid return in this sequel to the hit animated movie Ice Age. This time around, the deep freeze is over, and the ice-covered earth is starting to melt, which will destroy the trio's cherished valley. The impending disaster prompts them to reunite and warn all the other beasts about the desperate situation.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 7,
+        "keywords": [
+            "Animation",
+            "Prehistoric animals",
+            "Adventure",
+            "Family"
+        ],
+        "cast": [
+            "Ray Romano",
+            "John Leguizamo",
+            "Denis Leary"
+        ],
+        "genres": [
+            "Animation",
+            "Adventure"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "The Hateful Eight",
+        "overview": "Bounty hunters seek shelter from a raging blizzard and get caught up in a plot of betrayal and deception.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 8,
+        "keywords": [
+            "Western",
+            "Revenge",
+            "Ensemble cast"
+        ],
+        "cast": [
+            "Samuel L. Jackson",
+            "Kurt Russell",
+            "Jennifer Jason Leigh"
+        ],
+        "genres": [
+            "Western",
+            "Drama"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Wilson",
+        "overview": "Middle-aged and divorced, Wilson finds himself lonely, smug and obsessed with his past.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 8,
+        "keywords": [
+            "Comedy",
+            "Road trip",
+            "Family relationships"
+        ],
+        "cast": [
+            "Woody Harrelson",
+            "Laura Dern",
+            "Judy Greer"
+        ],
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Star Trek: Generations",
+        "overview": "Captain Jean-Luc Picard and the crew of the Enterprise-D find themselves at odds with the renegade scientist Soran who is destroying entire star systems. Only one man can help Picard stop Soran's scheme...and he's been dead for seventy-eight years.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 6,
+        "keywords": [
+            "Sci-Fi",
+            "Time travel",
+            "Intergenerational cast"
+        ],
+        "cast": [
+            "Patrick Stewart",
+            "William Shatner",
+            "Malcolm McDowell"
+        ],
+        "genres": [
+            "Sci-Fi",
+            "Adventure"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Aanrijding in Moscou",
+        "overview": "‘Moscou’ is a densely populated working class neighbourhood on the outskirts of Ghent, Belgium. Matty, mother of three, bumps her car into a truck on the parking lot of a supermarket. Johnny climbs down from the cabin. He is infuriated by the dent in his front bumper and yells at Matty. Although impressed by the accident, Matty fights back with sharp words. Their discussion turns into a row, and the police have to intervene. Matty goes home, the trunk of her car dancing up and down. Back in her apartment, Matty takes a hot bath to recover from the afternoon’s emotionswhen the phone rings. It’s Johnny, apologizing for his behaviour on the parking lot. Matty tells him to stay out of her life. A dramatic comedy begins about a woman whose soul is full of dents and bruises.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 9,
+        "keywords": [
+            "Belgian cinema",
+            "Romance",
+            "Comedy-drama"
+        ],
+        "cast": [
+            "Barbara Sarafian",
+            "Jurgen Delnaet",
+            "Johan Heldenbergh"
+        ],
+        "genres": [
+            "Drama",
+            "Romance"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "The Great Race",
+        "overview": "Professional daredevil and white-suited hero, The Great Leslie, convinces turn-of-the-century auto makers that a race from New York to Paris (westward across America, the Bering Straight and Russia) will help to promote automobile sales. Leslie's arch-rival, the mustached and black-attired Professor Fate vows to beat Leslie to the finish line in a car of Fate's own invention.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 8,
+        "keywords": [
+            "Comedy",
+            "Adventure",
+            "Classic Hollywood"
+        ],
+        "cast": [
+            "Jack Lemmon",
+            "Tony Curtis",
+            "Natalie Wood"
+        ],
+        "genres": [
+            "Comedy",
+            "Adventure"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "The Last Flight of Noah's Ark",
+        "overview": "The only chance to escape a desert island is to convert the plane carrying many different animals into a boat.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 6,
+        "keywords": [
+            "Family",
+            "Adventure",
+            "Survival"
+        ],
+        "cast": [
+            "Elliott Gould",
+            "Geneviève Bujold",
+            "Tammy Lauren"
+        ],
+        "genres": [
+            "Adventure",
+            "Family"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "For Keeps",
+        "overview": "Darcy, editor at her highschool paper, and her long-term boyfriend Stan are in their last months of school and already have found places in good colleges. Recently they started to sleep with each other and, surprise, surprise, Darcy gets pregnant. Neither Darcy's mother, who was left by her husband and had to bring up Darcy alone, nor Stan's catholic parents are very supportive and urge them to h",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 5,
+        "keywords": [
+            "Teen Pregnancy",
+            "Drama",
+            "Romance"
+        ],
+        "cast": [
+            "Molly Ringwald",
+            "Randall Batinkoff",
+            "Kenneth Mars"
+        ],
+        "genres": [
+            "Family",
+            "Drama"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Risen",
+        "overview": "Follows the epic Biblical story of the Resurrection, as told through the eyes of a non-believer. Clavius, a powerful Roman Military Tribune, and his aide Lucius, are tasked with solving the mystery of what happened to Jesus in the weeks following the crucifixion, in order to disprove the rumors of a risen Messiah and prevent an uprising in Jerusalem.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 4,
+        "keywords": [
+            "Biblical",
+            "Resurrection",
+            "Drama"
+        ],
+        "cast": [
+            "Joseph Fiennes",
+            "Tom Felton",
+            "Peter Firth"
+        ],
+        "genres": [
+            "Drama",
+            "Historical Fiction"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Son in Law",
+        "overview": "Country girl Rebecca has spent most of her life on a farm in South Dakota, and, when she goes away to college in Los Angeles, Rebecca immediately feels out of place in the daunting urban setting. She is befriended by a savvy party animal named Crawl, who convinces the ambivalent Rebecca to stay in the city. When Thanksgiving break rolls around, Rebecca, no longer an innocent farm girl, invites Crawl back to South Dakota, where he pretends to be her fiancé.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 9,
+        "keywords": [
+            "Comedy",
+            "Culture clash",
+            "Romantic"
+        ],
+        "cast": [
+            "Pauly Shore",
+            "Carla Gugino",
+            "Lane Smith"
+        ],
+        "genres": [
+            "Comedy",
+            "Romance"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Joueuse",
+        "overview": "In a small Corsican village, the life of Hélène, ordinary and single, She works as a maid in a hotel and is married happily with her Husband Ange and her fifteen year-old daughter. Her modest and monotonous life seems to be predetermined... One day while cleaning a hotel room, she meets a young, seductive, American couple which is playing a game of chess. First fascinated and then passionate about the game, Hélène learns with great tenacity she studies the rule of the game to perfection. She can count on Dr. Kröger, who is a mysterious inhabitant, to help her to achieve her goals. But this positive transition towards a liberty for Hélène does not go about without deeply changing her relationship with family, friends and inhabitants of the village.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 9,
+        "keywords": [
+            "French cinema",
+            "Chess",
+            "Female empowerment"
+        ],
+        "cast": [
+            "Sandrine Bonnaire",
+            "Kevin Kline",
+            "Alexandra Gentil"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Batman & Robin",
+        "overview": "Along with crime-fighting partner Robin and new recruit Batgirl, Batman battles the dual threat of frosty genius Mr. Freeze and homicidal horticulturalist Poison Ivy. Freeze plans to put Gotham City on ice, while Ivy tries to drive a wedge between the dynamic duo.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 5,
+        "keywords": [
+            "Superhero",
+            "Action",
+            "Adventure"
+        ],
+        "cast": [
+            "George Clooney",
+            "Arnold Schwarzenegger",
+            "Uma Thurman"
+        ],
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Were The World Mine",
+        "overview": "If you had a love-potion, who would you make fall madly in love with you? Timothy, prone to escaping his dismal high school reality through dazzling musical daydreams, gets to answer that question in a very real way. After his eccentric teacher casts him as Puck in A Midsummer Night's Dream, he stumbles upon a recipe hidden within the script to create the play's magical, purple love-pansy.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 6,
+        "keywords": [
+            "LGBT",
+            "Musical",
+            "Fantasy"
+        ],
+        "cast": [
+            "Tanner Cohen",
+            "Wendy Robie",
+            "Judy McLane"
+        ],
+        "genres": [
+            "Musical",
+            "Fantasy"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "All About the Benjamins",
+        "overview": "Bucum Jackson (Cube) is a bounty hunter with a lot of attitude and no interest in taking on a partner. Working at Martinez Bail Bonds, Jackson has unorthodox methods of tracking down low-life criminals, but they work, and one day he hopes to become his own boss and open up his own private investigation firm. Reggie Wright (Epps) is a slippery con artist who is avoiding the law, and Jackson. During a cat and mouse chase, the two stumble on a multi-million dollar diamond heist. Hiding from Jackson, Wright finds himself in the thieves' getaway van and ends up having to escape from them after they discover their booty is fake, much to the displeasure of their ruthless boss (Flanagan). When Wright meets up with his girlfriend (Mendes), he discovers that his recently purchased lottery ticket is the sole winner of $60 million. Unfortunately, his wallet, which held the ticket, was left in the thieves' van, so he persuades Jackson to help him get it back.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 7,
+        "keywords": [
+            "Action",
+            "Comedy",
+            "Crime"
+        ],
+        "cast": [
+            "Ice Cube",
+            "Mike Epps",
+            "Tommy Flanagan"
+        ],
+        "genres": [
+            "Comedy",
+            "Action"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Casino Royale",
+        "overview": "Le Chiffre, a banker to the world's terrorists, is scheduled to participate in a high-stakes poker game in Montenegro, where he intends to use his winnings to establish his financial grip on the terrorist market. M sends Bond – on his maiden mission as a 00 Agent – to attend this game and prevent Le Chiffre from winning. With the help of Vesper Lynd and Felix Leiter, Bond enters the most important poker game in his already dangerous career.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 8,
+        "keywords": [
+            "Spy",
+            "Action",
+            "James Bond"
+        ],
+        "cast": [
+            "Daniel Craig",
+            "Eva Green",
+            "Mads Mikkelsen"
+        ],
+        "genres": [
+            "Action",
+            "Spy"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Trapeze",
+        "overview": "A pair of men try to perform the dangerous \"triple\" in their trapeze act. Problems arise when the duo is made into a trio following the addition of a sexy female performer.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 4,
+        "keywords": [
+            "Circus",
+            "Romance",
+            "Drama"
+        ],
+        "cast": [
+            "Burt Lancaster",
+            "Tony Curtis",
+            "Gina Lollobrigida"
+        ],
+        "genres": [
+            "Drama",
+            "Romance"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Fallen",
+        "overview": "Homicide detective John Hobbes witnesses the execution of serial killer Edgar Reese. Soon after the execution the killings start again, and they are very similar to Reese's style.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 9,
+        "keywords": [
+            "Detective",
+            "Supernatural",
+            "Thriller"
+        ],
+        "cast": [
+            "Denzel Washington",
+            "John Goodman",
+            "Donald Sutherland"
+        ],
+        "genres": [
+            "Thriller",
+            "Supernatural"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Friday the 13th Part VIII: Jason Takes Manhattan",
+        "overview": "The Big Apple's in big trouble, as indestructible psycho-fiend Jason Vorhees hits the road to New York City. After a shocking return from beyond the grave, the diabolical Jason ships out abroad a teen-filled \"love boat\" bound for New York, which he soon transforms into the ultimate voyage of the damned. Then one of his terrified victims escapes into the nightmarish maze of Manhattan's subways and sewers, only to confront Jason one final time.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 5,
+        "keywords": [
+            "Horror",
+            "Slasher",
+            "New York City"
+        ],
+        "cast": [
+            "Jensen Daggett",
+            "Scott Reeves",
+            "Kane Hodder"
+        ],
+        "genres": [
+            "Horror",
+            "Slasher"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Nebraska",
+        "overview": "An aging, booze-addled father takes a trip from Montana to Nebraska with his estranged son in order to claim what he believes to be a million-dollar sweepstakes prize.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 9,
+        "keywords": [
+            "Road trip",
+            "Family drama",
+            "Black and White"
+        ],
+        "cast": [
+            "Bruce Dern",
+            "Will Forte",
+            "June Squibb"
+        ],
+        "genres": [
+            "Drama",
+            "Comedy-drama"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Bloodsport",
+        "overview": "Frank Dux has entered the \"kumite\", an illegal underground martial-arts competition where serious injury and even death are not unknown. Chong Li, a particularly ruthless and vicious fighter is the favorite, but then again Dux has not fought him yet.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 6,
+        "keywords": [
+            "Martial Arts",
+            "Action",
+            "Tournament"
+        ],
+        "cast": [
+            "Jean-Claude Van Damme",
+            "Donald Gibb",
+            "Leah Ayres"
+        ],
+        "genres": [
+            "Action",
+            "Martial Arts"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Henry's Crime",
+        "overview": "An aimless man is sent to prison for a crime he did not commit.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 7,
+        "keywords": [
+            "Comedy",
+            "Crime",
+            "Romance"
+        ],
+        "cast": [
+            "Keanu Reeves",
+            "Vera Farmiga",
+            "James Caan"
+        ],
+        "genres": [
+            "Comedy",
+            "Crime"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Sweet Charity",
+        "overview": "Taxi dancer Charity continues to have Faith in the human race despite apparently endless disappointments at its hands, and Hope that she will finally meet the nice young man to romance her away from her sleazy life. Maybe, just maybe, handsome Oscar will be the one to do it.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 4,
+        "keywords": [
+            "Musical",
+            "Romance",
+            "Dance"
+        ],
+        "cast": [
+            "Shirley MacLaine",
+            "John McMartin",
+            "Ricardo Montalban"
+        ],
+        "genres": [
+            "Musical",
+            "Romance"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Crossover",
+        "overview": "The clock strikes midnight, money changes hands, the crowd is on their feet, and the court is alive with fast-paced razzle-dazzle basketball. These players don't play for a school or a pro team. They play for the street and it's underground...way underground.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 6,
+        "keywords": [
+            "Basketball",
+            "Drama",
+            "Hip hop"
+        ],
+        "cast": [
+            "Anthony Mackie",
+            "Wesley Jonathan",
+            "Wayne Brady"
+        ],
+        "genres": [
+            "Drama",
+            "Sports"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "About Schmidt",
+        "overview": "66-year-old Warren Schmidt is a retired insurance salesman and has no particular plans other than to drive around in the motor home his wife insisted they buy. He's not altogether bitter, but not happy either, as everything his wife does annoys him, and he disapproves of the man his daughter is about to marry. When his wife suddenly dies, he sets out to postpone the imminent marriage of his daughter to a man he doesn't like, while coping with discoveries about his late wife and himself in the process.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 7,
+        "keywords": [
+            "Drama",
+            "Comedy-drama",
+            "Retirement"
+        ],
+        "cast": [
+            "Jack Nicholson",
+            "Kathy Bates",
+            "Hope Davis"
+        ],
+        "genres": [
+            "Drama",
+            "Comedy-drama"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    },
+    {
+        "title": "Tales from the Darkside: The Movie",
+        "overview": "The first segment features an animated mummy stalking selected student victims; the second tale tells the story of a \"cat from hell\" who cannot be killed and leaves a trail of victims behind it; the third story is about a man who witnesses a bizarre killing and promises never to tell what he saw and the \"in-between\" bit is the story of a woman preparing to cook her newspaper boy for supper.",
+        "poster": "\\uploads\\phir-hera-pheri-1682275950974.jpg",
+        "language": "en",
+        "popularity": 8,
+        "keywords": [
+            "Horror anthology",
+            "Supernatural",
+            "Fantasy"
+        ],
+        "cast": [
+            "Debbie Harry",
+            "Christian Slater",
+            "David Johansen"
+        ],
+        "genres": [
+            "Horror",
+            "Fantasy"
+        ],
+        "link": "\\uploads\\phir-hera-pheri-1682275950977.mp4"
+    }
+]

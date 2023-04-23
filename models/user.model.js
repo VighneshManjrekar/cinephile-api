@@ -27,6 +27,10 @@ const userSchema = new mongoose.Schema({
   },
   liked: [{ type: mongoose.Schema.ObjectId, ref: "Movies" }],
   watched: [{ type: mongoose.Schema.ObjectId, ref: "Movies" }],
+  isAdmin: {
+    type: Boolean,
+    default: false,
+  },
   createdAt: {
     type: Date,
     default: Date.now(),
