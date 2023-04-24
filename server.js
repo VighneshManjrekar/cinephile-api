@@ -13,6 +13,7 @@ const adminRouter = require("./routes/admin.routes");
 const app = express();
 const PORT = process.env.PORT || 7000;
 
+app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
