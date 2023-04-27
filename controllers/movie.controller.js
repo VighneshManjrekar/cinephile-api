@@ -9,17 +9,20 @@ exports.getMovies = asyncHandler(async (req, res, next) => {
     const { search, genres } = req.query;
     const query = {};
     if (search) {
-        query.$or = [
-            { title: { $regex: search, $options: 'i' } },
-            { overview: { $regex: search, $options: 'i' } },
-        ];
-        query.keywords = { $in: [search.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase())]};
+        query.title = { $regex: search, $options: 'i' };
     }
     if (genres) {
         query.genres = { $in: genres.split(',') };
     }
     const movies = await Movie.find(query);
-    res.status(200).json({ success: true, data: movies });
+    const genresSet = Array.from(new Set(movies.map(movie => movie.genres).flat()));
+    const suggestedMovies = await Movie.find({ genres: { $in: genresSet } });
+    const uniqueSuggestedMovies = [...movies, ...suggestedMovies].filter((movie, index, self) =>
+        index === self.findIndex((m) => (
+            m._id.toString() === movie._id.toString()
+        ))
+    );
+    res.status(200).json({ success: true, data: uniqueSuggestedMovies });
 });
 
 // @desc    Get single movie

@@ -3,7 +3,13 @@ const User = require("../models/user.model");
 const ErrorResponse = require("../utils/errorResponse");
 const sendMail = require("../utils/mail");
 
-const sendToken = (user, statusCode, res) => {
+const { connect } = require('getstream');
+const StreamChat = require('stream-chat').StreamChat;
+const api_key = process.env.STREAM_API_KEY;
+const api_secret = process.env.STREAM_API_SECRET;
+const app_id = process.env.STREAM_APP_ID;
+
+const sendToken = (user, statusCode, res, chatToken) => {
   user.password = undefined;
   const token = user.getSignToken();
   const options = {
@@ -16,7 +22,7 @@ const sendToken = (user, statusCode, res) => {
   res
     .status(statusCode)
     .cookie("token", token, options)
-    .json({ success: true, token });
+    .json({ success: true, token, chatToken });
 };
 
 // @desc    Register a user
@@ -33,11 +39,17 @@ exports.register = asyncHandler(async (req, res, next) => {
 // @access  Public
 exports.login = asyncHandler(async (req, res, next) => {
   const { email, password } = req.body;
+
+  const serverClient = connect(api_key, api_secret, app_id);
+  // const client = StreamChat.getInstance(api_key, api_secret);
+
   const user = await User.findOne({ email }).select("+password");
+  const chatToken = serverClient.createUserToken(user._id.toString());
+
   if (!user || !(await user.matchPassword(password))) {
     return next(new ErrorResponse("Invalid credentials", 401));
   }
-  sendToken(user, 200, res);
+  sendToken(user, 200, res, chatToken);
 });
 
 // @desc    Forgot Password
@@ -52,7 +64,7 @@ exports.forgotPassword = asyncHandler(async (req, res, next) => {
   const resetLink = user.createResetPassLink();
   const text = `
   Hi ${user.name},
-  You recently requested to reset the password for your Knowledge Karma account. Follow this link to proceed:
+  You recently requested to reset the password for your NetBlink account. Follow this link to proceed:
   ${resetLink}
   If you did not request a password reset, please ignore this email or reply to let us know. This password reset is only valid for the next 10 minutes.
   Thanks!
