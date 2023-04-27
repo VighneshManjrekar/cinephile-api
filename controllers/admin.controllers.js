@@ -5,7 +5,10 @@ const Movie = require("../models/movie.model");
 // @route   POST api/admin/movie
 // @access  Private/Admin
 exports.postMovie = asyncHandler(async (req, res, next) => {
-    console.log(req.files)
+    req.body.genres = req.body.genres.split(",");
+    req.body.cast = req.body.cast.split(",");
+    req.body.keywords = req.body.keywords.split(",");
+    
     const movie = await Movie.create({
         ...req.body,
         poster: req.files.poster[0].path.split("public")[1],

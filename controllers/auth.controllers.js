@@ -19,10 +19,15 @@ const sendToken = (user, statusCode, res, chatToken) => {
     httpOnly: true,
     secure: process.env.NODE_ENV ? true : false,
   };
+  const userData = {
+    name:user.name,
+    email:user.email,
+    isAdmin:user.isAdmin
+  }
   res
     .status(statusCode)
     .cookie("token", token, options)
-    .json({ success: true, token, chatToken });
+    .json({ success: true, token, chatToken, user:userData });
 };
 
 // @desc    Register a user
