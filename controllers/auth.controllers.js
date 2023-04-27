@@ -44,11 +44,10 @@ exports.login = asyncHandler(async (req, res, next) => {
   // const client = StreamChat.getInstance(api_key, api_secret);
 
   const user = await User.findOne({ email }).select("+password");
-  const chatToken = serverClient.createUserToken(user._id.toString());
-
   if (!user || !(await user.matchPassword(password))) {
     return next(new ErrorResponse("Invalid credentials", 401));
   }
+  const chatToken = serverClient.createUserToken(user._id.toString());
   sendToken(user, 200, res, chatToken);
 });
 

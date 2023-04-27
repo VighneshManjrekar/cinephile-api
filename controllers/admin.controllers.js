@@ -18,6 +18,7 @@ exports.postMovie = asyncHandler(async (req, res, next) => {
 // @route   PUT api/admin/movie/:id
 // @access  Private/Admin
 exports.updateMovie = asyncHandler(async (req, res, next) => {
+    const { genres, cast, keywords } = req.body
     if (req.files) {
         if (req.files.movie) {
             req.body.movie = req.files.movie[0].path.split("public")[1];
@@ -26,6 +27,9 @@ exports.updateMovie = asyncHandler(async (req, res, next) => {
             req.body.poster = req.files.poster[0].path.split("public")[1];
         }
     }
+    if (genres) req.body.genres = genres.split(",");
+    if (cast) req.body.cast = cast.split(",");
+    if (keywords) req.body.keywords = keywords.split(",");
     const movie = await Movie.findByIdAndUpdate(req.params.id, req.body, {
         new: true,
         runValidators: true,
