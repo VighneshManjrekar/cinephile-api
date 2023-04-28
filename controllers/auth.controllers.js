@@ -109,12 +109,16 @@ exports.resetPassword = asyncHandler(async (req, res, next) => {
   res.status(200).json({ success: true, data: updatedUser });
 });
 
-// @desc    Get current logged in user
-// @route   GET api/auth/user
-// @access  Private
-exports.getMe = asyncHandler(async (req, res, next) => {
-  const user = await User.findById(req.user._id);
-  res.status(200).json({ success: true, data: user });
+// @desc    Get current user data from userId
+// @route   GET api/auth/user/:id
+// @access  public
+exports.getUserName = asyncHandler(async (req, res, next) => {
+  const id = req.params.id
+  const user = await User.findById(id);
+  if (!user) {
+    return next(new ErrorResponse(`User not found`, 404))
+  }
+  res.status(200).json({ success: true, data: user.name });
 });
 
 // @desc    Logout user
