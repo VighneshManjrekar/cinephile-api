@@ -8,6 +8,7 @@ const StreamChat = require('stream-chat').StreamChat;
 const api_key = process.env.STREAM_API_KEY;
 const api_secret = process.env.STREAM_API_SECRET;
 const app_id = process.env.STREAM_APP_ID;
+const streamChat = StreamChat.getInstance(api_key, api_secret);
 
 const sendToken = (user, statusCode, res, chatToken) => {
   user.password = undefined;
@@ -20,14 +21,15 @@ const sendToken = (user, statusCode, res, chatToken) => {
     secure: process.env.NODE_ENV ? true : false,
   };
   const userData = {
-    name:user.name,
-    email:user.email,
-    isAdmin:user.isAdmin
+    name: user.name,
+    email: user.email,
+    isAdmin: user.isAdmin,
+    id: user._id
   }
   res
     .status(statusCode)
     .cookie("token", token, options)
-    .json({ success: true, token, chatToken, user:userData });
+    .json({ success: true, token, chatToken, user: userData });
 };
 
 // @desc    Register a user
@@ -35,8 +37,14 @@ const sendToken = (user, statusCode, res, chatToken) => {
 // @access  Public
 exports.register = asyncHandler(async (req, res, next) => {
   const { name, email, password } = req.body;
-  await User.create({ name, email, password });
-  res.status(201).json({ success: true });
+  const user = await User.create({ name, email, password });
+  const response = await streamChat.upsertUsers([
+    {
+      id: user._id.toString(),
+      email: user.email,
+      name: user.name,
+    }])
+  res.status(201).json({ success: true, response });
 });
 
 // @desc    Login user
@@ -44,15 +52,15 @@ exports.register = asyncHandler(async (req, res, next) => {
 // @access  Public
 exports.login = asyncHandler(async (req, res, next) => {
   const { email, password } = req.body;
-
-  const serverClient = connect(api_key, api_secret, app_id);
-  // const client = StreamChat.getInstance(api_key, api_secret);
-
   const user = await User.findOne({ email }).select("+password");
   if (!user || !(await user.matchPassword(password))) {
     return next(new ErrorResponse("Invalid credentials", 401));
   }
-  const chatToken = serverClient.createUserToken(user._id.toString());
+  const { users } = await streamChat.queryUsers({ id: user._id.toString() });
+  if (!users) {
+    return next(new ErrorResponse("Invalid credentials", 401));
+  }
+  const chatToken = streamChat.createToken(users[0].id);
   sendToken(user, 200, res, chatToken);
 });
 
@@ -99,6 +107,14 @@ exports.resetPassword = asyncHandler(async (req, res, next) => {
   user.password = password;
   const updatedUser = await user.save();
   res.status(200).json({ success: true, data: updatedUser });
+});
+
+// @desc    Get current logged in user
+// @route   GET api/auth/user
+// @access  Private
+exports.getMe = asyncHandler(async (req, res, next) => {
+  const user = await User.findById(req.user._id);
+  res.status(200).json({ success: true, data: user });
 });
 
 // @desc    Logout user
