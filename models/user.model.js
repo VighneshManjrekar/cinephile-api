@@ -62,7 +62,7 @@ userSchema.methods.createResetPassLink = function () {
   const token = jwt.sign(payload, secret, {
     expiresIn: process.env.RESET_PASS_EXPIRE,
   });
-  return `http://localhost:7000/api/auth/reset-password/${this._id}/${token}`;
+  return `http://localhost:3000/reset/${this._id}/${token}`;
 };
 userSchema.methods.verifyResetToken = function (token) {
   const secret = process.env.JWT_SECRET + this.password;
